@@ -14,6 +14,8 @@ npm run dev     # → http://localhost:5173 を Chrome で開く
 - テスト: `npm test`（domain層のKotlin版とのパリティ検証）
 - 本番ビルド: `npm run build`（`dist/` に出力）
 
+Windowsでダブルクリック起動したい場合は [`open-stresslog.ps1`](open-stresslog.ps1) にショートカットを張るとよい。開発サーバーが起動していなければ自動起動し、`http://localhost:5173` をブラウザで開く。
+
 ## Android版との対応関係
 
 | Android (Kotlin) | Web (TypeScript) |
